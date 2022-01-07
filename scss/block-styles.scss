@@ -1,0 +1,36 @@
+
+$primary:       #C14435;
+$secondary:     #F4B334;
+$tertiary:      #081E3F;
+$light:         #FFFFFF;
+$dark:          #484848;
+
+@mixin transition($speed) {
+  -webkit-transition: all $speed ease;
+  -moz-transition: all $speed ease;
+  -ms-transition: all $speed ease;
+  -o-transition: all $speed ease;
+  transition: all $speed ease;
+}
+
+
+@media (max-width: 576px) {
+
+}
+
+// Small styles - default: 480px <= x <= 991px
+@media (min-width: 576px) and (max-width: 992px) {
+
+}
+
+// Medium styles - default: 992px <= x <= 1199px
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+// Large styles - default: 1200px <= x
+@media (min-width: 1200px) {
+
+
+
+}
