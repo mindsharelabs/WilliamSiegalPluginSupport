@@ -2,8 +2,8 @@
 
 
 if (function_exists('add_image_size')) {
-  add_image_size( 'thumbnal-square', 250, 250, array('center', 'center'));
-
+  add_image_size( 'thumbnal-square', 450, 450, array('center', 'center'));
+  add_image_size( 'archive-slide', 1520, 720, array('center', 'center'));
 }
 
 
